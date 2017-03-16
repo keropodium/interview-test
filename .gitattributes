@@ -1,0 +1,10 @@
+*.js	text eol=lf
+*.xml   text eol=lf
+*.json  text eol=lf
+*.html	text
+*.less	text
+*.jpg   binary
+*.png   binary
+*.pdf   binary
+*.sh    text eol=lf
+*.cli   text eol=lf

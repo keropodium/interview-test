@@ -2,9 +2,12 @@
     "name": "emitter",
     "version": "0.0.1",
     "description": "Just a knowledge test",
+    "engines": {
+        "node": ">=6.9.2"
+    },
     "main": "index.js",
     "scripts": {
-        "test": "babel-node ./test.js"
+        "test": "node ./test.js"
     },
     "author": "@Facebook Inc.",
     "contributors": [
@@ -20,12 +23,6 @@
     ],
     "license": "MIT",
     "devDependencies": {
-        "babel-cli": "^6.24.0",
-        "babel-core": "^6.24.0",
-        "babel-preset-es2015": "^6.24.0",
-        "babel-preset-es2016": "^6.22.0",
-        "babel-preset-es2017": "^6.22.0",
-        "babel-preset-stage-2": "^6.22.0",
         "expect": "^1.20.2"
     }
 }

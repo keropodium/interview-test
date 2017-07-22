@@ -1,6 +1,6 @@
-import expect from 'expect';
+const expect = require('expect');
 
-import Emitter from '.';
+const Emitter = require('.');
 
 // Step 1
 

@@ -1,3 +1,7 @@
+# JavaScript Interview Test
+
+![Node version](https://img.shields.io/node/v/uno-zen.svg?style=flat-square)
+
 >Follow this requirements each in a separate branch, named for example *step1*
 
 ***FIRST STEP***

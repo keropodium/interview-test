@@ -4,10 +4,20 @@
     "description": "Just a knowledge test",
     "main": "index.js",
     "scripts": {
-        "start": "babel-node ./index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "babel-node ./test.js"
     },
-    "author": "Julián Salgado <Julian.SALGADO@ext.euipo.europa.eu>",
+    "author": "@Facebook Inc.",
+    "contributors": [
+        {
+            "name": "Julián Salgado",
+            "email": "Julian.SALGADO@ext.euipo.europa.eu"
+        },
+        {
+            "name": "Flavio Corpa",
+            "email": "Flavio.CORPA@ext.euipo.europa.eu",
+            "url": "http://flaviocorpa.com"
+        }
+    ],
     "license": "MIT",
     "devDependencies": {
         "babel-cli": "^6.24.0",
@@ -15,6 +25,7 @@
         "babel-preset-es2015": "^6.24.0",
         "babel-preset-es2016": "^6.22.0",
         "babel-preset-es2017": "^6.22.0",
-        "babel-preset-stage-2": "^6.22.0"
+        "babel-preset-stage-2": "^6.22.0",
+        "expect": "^1.20.2"
     }
 }

@@ -2,9 +2,17 @@
 
 ![Node version](https://img.shields.io/node/v/uno-zen.svg?style=flat-square)
 
->Follow this requirements each in a separate branch, named for example *step1*
+> Follow this requirements each in a separate branch, named for example `step1`
 
-***FIRST STEP***
+## Usage
+
+When you are done, simply do the following to know if you passed *(or failed)*:
+
+```sh
+$ npm test
+```
+
+## FIRST STEP
 
 Create an event emitter that goes like this:
  
@@ -22,7 +30,7 @@ You can emit the event you want and pass any number of arguments
 
 `emitter.emit('myEvent', 'firstArgument', 'secondArgument');`
 
-***SECOND STEP***
+## SECOND STEP
 
 Make the return from the subscribe method to return a function that allows you to release that subscription:
 ```
@@ -31,6 +39,6 @@ sub1();
 ```
 ...but all other subscriptions shall remain intact
 
-***THIRD STEP***
+## THIRD STEP
 
 Make the emit method return an array with every return value for each subscription callback

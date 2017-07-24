@@ -1,6 +1,6 @@
-const expect = require('expect');
+import expect from 'expect';
 
-const Emitter = require('.');
+import Emitter from '.';
 
 // Step 1
 
@@ -41,4 +41,4 @@ const result = emitter.emit('myEvent');
 
 expect(result).toEqual([1, 2, true]);
 
-console.info('You passed the test!!! 👏🏼 👏🏼 👏🏼')
+console.info('You passed the test!!! 👏🏼 👏🏼 👏🏼');

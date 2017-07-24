@@ -1,5 +1,3 @@
-class Emitter {
+export default class Emitter {
     constructor() { }
 }
-
-module.exports = Emitter

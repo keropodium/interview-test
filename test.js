@@ -24,13 +24,19 @@ emitter.emit('sum', 2); // should trigger 2 callbacks
 
 expect(test).toBe(6);
 
+const sub3 = emitter.subscribe('sum', (...args) => test = test + [...args].reduce((a, b) => a + b, 0));
+
+emitter.emit('sum', 2, 4, 6);// should trigger 3 callbacks
+
+expect(test).toBe(28);
+
 // Step 2
 
 sub1();
 
-emitter.emit('sum', 3); // should trigger 1 callback
+emitter.emit('sum', 3); // should trigger 2 callback
 
-expect(test).toBe(18);
+expect(test).toBe(87);
 
 // Step 3
 
